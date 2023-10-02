@@ -1,24 +1,25 @@
 import React from "react";
+import { Link } from "react-router-dom"; // Import Link component
 
 export default function Header() {
   return (
-    <header className="navbar bg-primary p-2 flex-row-bet">
-      <a href="#" className="navbar-logo text-white font-lg font-bold">
-        Your Logo
-      </a>
-      <nav className="w-60 flex-row-aro">
-        <a href="#" className="navbar-link text-white">
+    <header className="navbar p-2 flex-row-bet">
+      <Link to="/" className="navbar-logo text-dark font-lg font-weight-800">
+        DarkWaves.Dev
+      </Link>
+      <nav className="w-30 flex-row-aro font-weight-600">
+        <Link to="/home" className="navbar-link text-dark">
           Home
-        </a>
-        <a href="#" className="navbar-link text-white">
+        </Link>
+        <Link to="/about" className="navbar-link text-dark">
           About
-        </a>
-        <a href="#" className="navbar-link text-white">
+        </Link>
+        <Link to="/contact" className="navbar-link text-dark">
           Contact
-        </a>
-        <a href="#" className="navbar-link text-white">
+        </Link>
+        <Link to="/projects" className="navbar-link text-dark">
           Projects
-        </a>
+        </Link>
       </nav>
     </header>
   );

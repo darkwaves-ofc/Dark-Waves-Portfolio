@@ -6,18 +6,20 @@ import "./App.css";
 import "./utils/fontAwesomeSetup.js";
 import "./utils/FontLoader";
 import Header from "./common/Header/Header";
-import Footer from "./common/Footer/Footer"
+import Footer from "./common/Footer/Footer";
 
 function App() {
   return (
     <>
-      <Header />
       <Router>
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          {/* Define other routes as needed */}
         </Routes>
+        <Footer />
       </Router>
-      <Footer/>
     </>
   );
 }

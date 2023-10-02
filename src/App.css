@@ -26,8 +26,22 @@ a {
   --space-6: 32px;
   --space-7: 48px;
   --space-8: 64px;
-  --color-primary: #39AAA9;
-  --color-secondary: #6c757d;
+
+  /* Primary Color: Royal Blue */
+  --color-primary: #3498db;
+
+  /* Secondary Color: Emerald Green */
+  --color-secondary: #2ecc71;
+
+  /* Accent Color: Tomato Red */
+  --color-accent: #e74c3c;
+
+  /* Background Color: Light Gray */
+  --color-background: #f5f5f5;
+
+  /* Text Color: Dark Gray */
+  --color-text: #333333;
+
   --color-success: #28a745;
   --color-danger: #dc3545;
   --color-warning: #ffc107;
@@ -49,51 +63,6 @@ a {
   --border-radius-md: 8px;
   --border-radius-lg: 16px;
 }
-
-/* Creating color palettes for a website involves selecting a combination of colors that work well together and convey the desired aesthetic. Here are some color palettes that you can use as inspiration for a good light-dark website:
-
-Modern and Elegant:
-
-Primary Color: #3498db (Royal Blue)
-Secondary Color: #2ecc71 (Emerald Green)
-Accent Color: #e74c3c (Tomato Red)
-Background Color: #f5f5f5 (Light Gray)
-Text Color: #333333 (Dark Gray)
-Minimalistic and Clean:
-
-Primary Color: #ffffff (White)
-Secondary Color: #333333 (Dark Gray)
-Accent Color: #ff5733 (Coral)
-Background Color: #f9f9f9 (Light Gray)
-Text Color: #222222 (Charcoal)
-Vibrant and Playful:
-
-Primary Color: #f39c12 (Orange)
-Secondary Color: #3498db (Royal Blue)
-Accent Color: #2ecc71 (Emerald Green)
-Background Color: #ffffff (White)
-Text Color: #333333 (Dark Gray)
-Nature-inspired:
-
-Primary Color: #4CAF50 (Green)
-Secondary Color: #FF9800 (Orange)
-Accent Color: #795548 (Brown)
-Background Color: #F5F5F5 (Light Gray)
-Text Color: #333333 (Dark Gray)
-Professional and Corporate:
-
-Primary Color: #0072B5 (Navy Blue)
-Secondary Color: #E74C3C (Red)
-Accent Color: #3498DB (Light Blue)
-Background Color: #F0F0F0 (Light Gray)
-Text Color: #333333 (Dark Gray)
-Calm and Serene:
-
-Primary Color: #66CCCC (Turquoise)
-Secondary Color: #F4D03F (Yellow)
-Accent Color: #7D3C98 (Purple)
-Background Color: #E6E6E6 (Light Gray)
-Text Color: #333333 (Dark Gray) */
 
 body {
   font-family: var(--font-primary);
@@ -143,6 +112,42 @@ body.dark {
 }
 .font-underline {
   text-decoration: underline;
+}
+/* Font Weights */
+.font-weight-900 {
+  font-weight: 900;
+}
+
+.font-weight-800 {
+  font-weight: 800;
+}
+
+.font-weight-700 {
+  font-weight: 700;
+}
+
+.font-weight-600 {
+  font-weight: 600;
+}
+
+.font-weight-500 {
+  font-weight: 500;
+}
+
+.font-weight-400 {
+  font-weight: 400;
+}
+
+.font-weight-300 {
+  font-weight: 300;
+}
+
+.font-weight-200 {
+  font-weight: 200;
+}
+
+.font-weight-100 {
+  font-weight: 100;
 }
 .text-left {
   text-align: left;
@@ -346,15 +351,21 @@ body.dark {
   display: flex;
   align-items: flex-end;
 }
-.flex-column {
+.flex-col {
   display: flex;
   flex-direction: column;
 }
-.flex-column-center {
+.flex-col-center {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.flex-col-bet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 .flex-row {
   display: flex;
