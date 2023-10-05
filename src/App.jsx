@@ -11,15 +11,17 @@ import Footer from "./common/Footer/Footer";
 function App() {
   return (
     <>
-      <Router>
-        <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/home" element={<Home />} />
-          {/* Define other routes as needed */}
-        </Routes>
-        <Footer />
-      </Router>
+      <div className="w-full position-relative flex-col-ali-center">
+        <Router>
+          <Header />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home />} />
+            {/* Define other routes as needed */}
+          </Routes>
+          <Footer />
+        </Router>
+      </div>
     </>
   );
 }

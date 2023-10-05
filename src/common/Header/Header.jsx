@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"; // Import Link component
 
 export default function Header() {
   return (
-    <header className="navbar p-2 flex-row-bet">
+    <header className="navbar p-2 flex-row-bet position-absolute w-95 m-auto">
       <Link to="/" className="navbar-logo text-dark font-lg font-weight-800">
         DarkWaves.Dev
       </Link>

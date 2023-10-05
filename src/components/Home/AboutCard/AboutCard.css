@@ -1,0 +1,4 @@
+.main__about_content .image__container .about__image {
+  width: 21rem;
+  object-fit: cover;
+}
