@@ -11,8 +11,14 @@ export default function AboutCard() {
           alt="About Dark Waves"
           className="about__image rounded-lg"
         />
+        <img
+          src={mainData.siteLogo}
+          alt=""
+          className="about__sub_logo position-absolute w-30 rounded-full"
+        />
       </div>
       <div className="content__container">
+        <span className="title__intro text-primary font-bold">About Us</span>
         <h2 className="m-b-2">{mainData.aboutTitle}</h2>
         <span>{mainData.about}</span>
       </div>
