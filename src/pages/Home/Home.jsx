@@ -6,7 +6,7 @@ import Projects from "../../components/Home/Projects/Projects";
 
 export default function Home() {
   return (
-    <div className="home flex-col w-60 m-auto">
+    <div className="home flex-col m-auto">
       <MainContent />
       <AboutCard />
       <Projects />

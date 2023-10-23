@@ -602,6 +602,12 @@ a {
   align-items: center;
   justify-content: space-between;
 }
+.flex-col-aro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
 .flex-row {
   display: flex;
   flex-direction: row;
@@ -621,6 +627,28 @@ a {
 .flex-row-aro {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.flex-row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.flex-row-reverse-center {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+}
+.flex-row-reverse-bet {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex-row-reverse-aro {
+  display: flex;
+  flex-direction: row-reverse;
   align-items: center;
   justify-content: space-around;
 }

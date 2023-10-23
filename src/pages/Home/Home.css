@@ -1,3 +1,2 @@
 .home {
-    max-width: 1024px;
-}
+    width: clamp(min(13vw, 27rem), 90%, max(29vw, 57rem));}

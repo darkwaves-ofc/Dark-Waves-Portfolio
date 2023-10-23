@@ -43,3 +43,7 @@
     clip-path: polygon(67% 13%, 100% 34%, 92% 85%, 36% 100%, 10% 68%, 0 0);
   }
 }
+
+.main-content {
+  height: 40rem;
+}

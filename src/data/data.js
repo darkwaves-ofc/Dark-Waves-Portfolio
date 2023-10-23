@@ -14,5 +14,30 @@ export const mainData = {
   aboutTitle: "Pioneering Digital Excellence",
   about:
     "DarkWaves is a dynamic organization driven by digital innovation. We specialize in web development, software engineering, and design, crafting solutions that empower businesses and individuals through technology. With innovation at our core, we're committed to creating a brighter future. Join us on this journey of digital excellence.",
+  usage: [{ title: "React" }, { title: "CSS" }, { title: "JS" }],
   aboutPic: "/home/MainAboutPic.jpg",
 };
+
+export const ProjectsData = [
+  {
+    title: "Braindance",
+    banner: "/projects/braindance.png",
+    des: "This is a discord music bot. This project contains A web base dashboard for controll the discord bot. In this you can get better experience with a music bot.",
+    usage: [{ title: "React" }, { title: "CSS" }, { title: "JS" }],
+    url: "https://braindance.gg",
+  },
+  {
+    title: "NoError",
+    banner: "/projects/Noerror.png",
+    des: "NoError Studios is a community dedicated to coding and development enthusiasts. Whether you're a beginner or an experienced developer, you'll find a welcoming environment to learn, collaborate, and share your knowledge.",
+    usage: [{ title: "React" }, { title: "CSS" }, { title: "JS" }],
+    url: "https://noerror.studio/",
+  },
+  {
+    title: "SkillSwap",
+    banner: "/projects/SkillSwap.png",
+    des: "With SkillSwap you can improve your knowledge with others. You can participate events and win then you can get prizes. Additionaly you have many of cources before participate your enteresting event. It may Handle you like lecture. This is a good user friend platform.",
+    usage: [{ title: "React" }, { title: "CSS" }, { title: "JS" }],
+    url: "http://103.195.101.44:4173/",
+  },
+];
