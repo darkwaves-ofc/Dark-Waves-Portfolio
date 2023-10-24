@@ -608,6 +608,12 @@ a {
   align-items: center;
   justify-content: space-around;
 }
+.flex-col-eve {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
 .flex-row {
   display: flex;
   flex-direction: row;
@@ -629,6 +635,12 @@ a {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+}
+.flex-row-eve {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .flex-row-reverse {
   display: flex;

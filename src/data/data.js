@@ -41,3 +41,38 @@ export const ProjectsData = [
     url: "http://103.195.101.44:4173/",
   },
 ];
+
+export const SkillsData = [
+  {
+    title: "Web Delveloping",
+    content: [
+      { title: "React", logo: "/skills/React.png" },
+      { title: "HTML", logo: "/skills/HTML.png" },
+      { title: "CSS", logo: "/skills/CSS.png" },
+      { title: "JS", logo: "/skills/JS.png" },
+    ],
+  },
+  {
+    title: "BackEnd Delveloping",
+    content: [
+      { title: "NodeJs", logo: "/skills/NodeJs.png" },
+      { title: "Express", logo: "/skills/Express.png" },
+      { title: "MongoDB", logo: "/skills/MongoDB.png" },
+    ],
+  },
+  {
+    title: "Mobile Delveloping",
+    content: [
+      { title: "ReactNative", logo: "/skills/ReactNative.png" },
+      { title: "Expo", logo: "/skills/Expo.png" },
+    ],
+  },
+  {
+    title: "UI designing",
+    content: [
+      { title: "Figma", logo: "/skills/Figma.png" },
+      { title: "Indesign", logo: "/skills/Indesign.png" },
+    ],
+  },
+];
+

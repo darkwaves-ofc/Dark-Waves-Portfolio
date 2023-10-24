@@ -3,6 +3,7 @@ import { ProjectsData } from "../../../data/data";
 import "./Projects.css";
 import { Fade } from "react-reveal";
 
+
 export default function Projects() {
   return (
     <div className="projects m-t-8">
@@ -19,12 +20,12 @@ export default function Projects() {
               index % 2 === 0 ? "flex-row" : "flex-row-reverse"
             }`}
           >
-            <Fade right={index % 2 !== 0} left={index % 2 === 0}>
-              <a href={data.url} className="project-banner">
+            <Fade cascade right={index % 2 !== 0} left={index % 2 === 0}>
+              <a href={data.url} target="__blank" className="project-banner">
                 <img src={data.banner} alt="" />
               </a>
             </Fade>
-            <Fade left={index % 2 !== 0} right={index % 2 === 0}>
+            <Fade cascade left={index % 2 !== 0} right={index % 2 === 0}>
               <div className="project-contant w-full flex-col-aro">
                 <div className="project-title font-weight-700 font-lg">
                   {data.title}

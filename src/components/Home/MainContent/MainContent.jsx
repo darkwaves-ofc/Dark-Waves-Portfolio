@@ -7,7 +7,7 @@ import { Fade } from "react-reveal";
 export default function MainContent() {
   return (
     <div className="main-content flex-row-center">
-      <Fade left>
+      <Fade cascade left>
         <div className="details__section">
           <div className="title font-xl font-weight-700">{mainData.title}</div>
           <div className="description m-t-2">{mainData.description}</div>
