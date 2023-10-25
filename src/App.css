@@ -596,6 +596,12 @@ a {
   align-items: center;
   justify-content: center;
 }
+.flex-col-center-start {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
 .flex-col-bet {
   display: flex;
   flex-direction: column;

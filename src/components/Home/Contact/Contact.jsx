@@ -41,7 +41,7 @@ export default function Contact() {
       <div className="title_container">
         <div className="title font-xl font-weight-700">Contact Us</div>
       </div>
-      <div className="form_container flex-col-center g-5 m-t-5">
+      <div className="form_container flex-col-center-start g-5 m-t-5">
         <div
           className={`input_container position-relative w-50 ${getInputClassName(
             "name"
